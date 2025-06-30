@@ -4,7 +4,7 @@ This project is part of my capstone work and aims to analyze restaurant sales da
 
 ---
 ## Install
-    pip install pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost, tensorflow, keras-tuner
+    pip install pandas==2.2.2, scikit-learn==1.6.1, xgboost==2.1.4 ,tensorflow==2.18.0, keras-tuner==1.4.7, matplotlib==3.10.0, missingno==0.5.2, openpyxl==3.1.5. xlrd==2.0.2
 
 ---
 
