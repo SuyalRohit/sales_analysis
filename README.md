@@ -36,11 +36,7 @@ Run the project using `main.py` by specifying which step you want to execute:
 
 Here’s an example of daily sales trend:
 
-🔧 Requirements
-
-Install dependencies with:
-
-pip install -r requirements.txt
+---
 
 📊 Data Sources
 
@@ -49,6 +45,8 @@ pip install -r requirements.txt
     items.csv — item metadata (name, cost, kcal)
 
     restaurants.csv — store information
+
+---
 
 📁 Folder Descriptions
 
@@ -64,13 +62,7 @@ pip install -r requirements.txt
 
     output/ — saved plots and forecasts for use in the report/README
 
-📌 Notes
-
-    Models can be extended with additional time features.
-
-    CLI argument parsing allows flexibility in running pipeline steps.
-
-    Code is modular and maintainable — ready for scaling or deployment.
+---
 
 📜 License
 
