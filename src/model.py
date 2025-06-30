@@ -11,7 +11,7 @@ import calendar
 
 from keras.models import Sequential
 from keras.layers import LSTM, Dense
-from tensorflow.keras.preprocessing.sequence import TimeseriesGenerator
+from keras.preprocessing.sequence import TimeseriesGenerator
 from keras.callbacks import EarlyStopping
 from keras_tuner.tuners import RandomSearch
 
@@ -62,6 +62,7 @@ def evaluate_model(model, X_test, y_test, test_df):
     plt.legend()
     plt.title("Linear Regression Forecast")
     plt.tight_layout()
+    plt.savefig("output/forecast_plot.png")
     plt.show()
 
     rmse = mean_squared_error(y_test, test_df['lr_pred'], squared=False)
