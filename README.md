@@ -3,7 +3,10 @@
 This project is part of my capstone work and aims to analyze restaurant sales data and forecast future trends using machine learning and deep learning models.
 
 ---
+## Install
+    pip install torch numpy transformers datasets tiktoken wandb tqdm
 
+---
 
 ## 🚀 Features
 
