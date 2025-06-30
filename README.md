@@ -56,6 +56,7 @@ Forecasts are visualized and saved. LSTM was tuned using keras-tuner for optimal
 python main.py --eda         # For visualizations and metrics
 python main.py --train       # For training and evaluating models
 python main.py --forecast    # For future forecasting
+```bash
 
 🖼️ Sample Output
 
