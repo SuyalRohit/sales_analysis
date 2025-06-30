@@ -20,7 +20,8 @@ This project is part of my capstone work and aims to analyze restaurant sales da
   - LSTM (with KerasTuner for hyperparameter tuning)
 
 ---
-🚀 How to Run
+
+## 🚀 How to Run
 
 Run the project end-to-end using:
 
@@ -30,6 +31,9 @@ Flag	Description
 --eda	Runs exploratory data analysis and saves plots to output/
 --train	Trains machine learning models and forecasts future sales
 --all	Runs both EDA and training pipeline
+
+---
+
 📊 Exploratory Analysis Highlights
 
     Total Revenue: ₹X
