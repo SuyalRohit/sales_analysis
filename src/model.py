@@ -9,10 +9,10 @@ from sklearn.preprocessing import OrdinalEncoder, MinMaxScaler
 from datetime import timedelta
 import calendar
 
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM, Dense
-from tensorflow.keras.preprocessing.sequence import TimeseriesGenerator
-from tensorflow.keras.callbacks import EarlyStopping
+from keras.models import Sequential
+from keras.layers import LSTM, Dense
+from keras.preprocessing.sequence import TimeseriesGenerator
+from keras.callbacks import EarlyStopping
 from keras_tuner.tuners import RandomSearch
 
 month_name = list(calendar.month_name)[1:]
