@@ -13,3 +13,15 @@ def preprocess_sales(sales_df):
 def check_duplicates(df_dict):
     for name, df in df_dict.items():
         print(f"Duplicates in {name}: {df.duplicated().sum()}")
+
+def check_nulls(df_dict):
+    for name, df in df_dict.items():
+        print(f"\nNull values in {name}:\n{df.isnull().sum()}")
+
+def merge_data(sales, items, restaurants):
+    merged_data = pd.merge(sales, items, left_on='item_id', right_on='id', how='left')
+    new_df = pd.merge(merged_data, restaurants, left_on='store_id', right_on='id')
+    new_df.rename(columns={"name_x": "item_name", "name_y": "restaurant_name"}, inplace=True)
+    new_df.drop(columns=['id_x', 'id_y', 'cost'], inplace=True)
+    return new_df
+
