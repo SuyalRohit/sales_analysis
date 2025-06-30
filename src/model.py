@@ -11,7 +11,7 @@ import calendar
 
 from keras.models import Sequential
 from keras.layers import LSTM, Dense
-from keras.preprocessing.sequence import TimeseriesGenerator
+from tensorflow.keras.preprocessing.sequence import TimeseriesGenerator
 from keras.callbacks import EarlyStopping
 from keras_tuner.tuners import RandomSearch
 
