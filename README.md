@@ -21,46 +21,13 @@ This project is part of my capstone work and aims to analyze restaurant sales da
 
 ---
 
-## 🚀 How to Run
-
-Run the project end-to-end using:
-
-python main.py --eda --train
-
-Flag	Description
---eda	Runs exploratory data analysis and saves plots to output/
---train	Trains machine learning models and forecasts future sales
---all	Runs both EDA and training pipeline
-
----
-
-📊 Exploratory Analysis Highlights
-
-    Total Revenue: ₹X
-
-    Top-Selling Items: Visualized with bar plots
-
-    Sales Trends: Day of week, month, quarter, and restaurant-wise trends
-
-    All plots are saved to the output/ folder.
-
-🤖 Models Implemented
-Model	RMSE	MAE	R² Score
-Linear Regression			
-Random Forest			
-XGBoost			
-LSTM (Keras + Tuner)			
-
-Forecasts are visualized and saved. LSTM was tuned using keras-tuner for optimal performance.
 ## 🧪 How to Run
 
-> Run the project using `main.py` by specifying which step you want to execute:
+Run the project using `main.py` by specifying which step you want to execute:
 
-```bash
-python main.py --eda         # For visualizations and metrics
-python main.py --train       # For training and evaluating models
-python main.py --forecast    # For future forecasting
-```bash
+    python main.py --eda         # For visualizations and metrics
+    python main.py --train       # For training and evaluating models
+    python main.py --forecast    # For future forecasting
 
 🖼️ Sample Output
 
