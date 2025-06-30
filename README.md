@@ -4,7 +4,7 @@ This project is part of my capstone work and aims to analyze restaurant sales da
 
 ---
 ## Install
-    pip install torch numpy transformers datasets tiktoken wandb tqdm
+    pip install pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost, tensorflow, keras-tuner
 
 ---
 
