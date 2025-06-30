@@ -1,41 +1,9 @@
-# sales_analysis
-
-This project is a comprehensive sales forecasting and exploratory analysis pipeline for a restaurant chain. The goal is to analyze historical sales data, uncover trends, and build machine learning models to forecast future item demand.
-
-
 # 🍽️ Restaurant Sales Forecasting
 
 This project is part of my capstone work and aims to analyze restaurant sales data and forecast future trends using machine learning and deep learning models.
 
 ---
 
-## 📁 Project Structure
-
-.
-├── data/
-│ ├── items.csv
-│ ├── sales.csv
-│ └── restaurants.csv
-│
-├── notebooks/
-│ └── sales_forecasting_raw.ipynb
-│
-├── src/
-│ ├── preprocessing.py
-│ ├── eda.py
-│ └── model.py
-│
-├── output/
-│ └── [plots, forecasts, etc.]
-│
-├── main.py
-├── requirements.txt
-├── .gitignore
-├── LICENSE
-└── README.md
-
-
----
 
 ## 🚀 Features
 
@@ -74,7 +42,7 @@ pip install -r requirements.txt
 
 📊 Data Sources
 
-    sales.csv — transaction-level item sales
+    sales.csv — sales info (item_id, item_cost, price)
 
     items.csv — item metadata (name, cost, kcal)
 
@@ -82,7 +50,7 @@ pip install -r requirements.txt
 
 📁 Folder Descriptions
 
-    data/ — Raw input files
+    data/ — datasets
 
     src/ — Modular Python scripts for:
 
