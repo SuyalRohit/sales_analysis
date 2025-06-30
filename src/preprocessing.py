@@ -25,3 +25,9 @@ def merge_data(sales, items, restaurants):
     new_df.drop(columns=['id_x', 'id_y', 'cost'], inplace=True)
     return new_df
 
+def prepare_data():
+    """Loads and processes data in a clean pipeline."""
+    restaurants, sales, items = load_data()
+    sales = preprocess_sales(sales)
+    final_df = merge_data(sales, items, restaurants)
+    return final_df
